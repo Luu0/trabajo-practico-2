@@ -11,7 +11,7 @@ export function setupRandomButton(buttonId) {
                     const randomPais = data[randomIndex];
 
                     localStorage.setItem('paisSeleccionado', JSON.stringify(randomPais));
-                    window.location.href = '/src/pages/detalles.html';
+                    window.location.href = 'detalles';
                 })
                 .catch(error => console.error('Error al obtener un país aleatorio:', error));
         });

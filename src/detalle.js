@@ -26,7 +26,7 @@ if (pais) {
     `;
 
     document.getElementById('volver').addEventListener('click', () => {
-        window.location.href = '../index.html';
+        window.location.href = '/index.html';
     });
 } else {
     document.body.innerHTML = '<h2>No se encontraron datos del país.</h2>';
