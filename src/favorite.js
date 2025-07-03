@@ -19,6 +19,11 @@ if (favoritos.length === 0) {
             <button class="grlbtn" data-nombre="${pais.name.common}">Eliminar</button>
         `;
 
+        div.addEventListener('click', () => {
+            localStorage.setItem('paisSeleccionado', JSON.stringify(pais));
+            window.location.href = '/src/pages/detalles.html';
+        });
+
         favoritosEl.appendChild(div);
     });
 
