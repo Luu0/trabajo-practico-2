@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/37746_globe_earth_world_icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flag Info</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    
+    <nav>
+        <h2>Flag Info</h2>
+        <ul class="nav-links">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="https://restcountries.com/" target="_blank">API</a></li>
+            <li><a href="#" id="randomLink">Random</a></li>
+            <li><a href="/src/pages/favorites.html">Favoritos</a></li>
+        </ul>
+    </nav>
+
+    <h1>Banderas del Mundo</h1>
+
+    
+    <h3>Una simple pagina que permite ver entre las 250 banderas del mundo</h3>
+    <div class="filtros-container">
+      <input type="text" id="buscador" placeholder="Ej: Argentina">
+      <select id="filtroRegion">
+        <option value="">Todas las Regiones</option>
+        <option value="Africa">África</option>
+        <option value="Americas">Américas</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europa</option>
+        <option value="Oceania">Oceanía</option>
+      </select>
+    </div>
+
+      <div id="banderas" class="grid"></div>
+      
+      <div class="pagination">
+        <button id="prev" class="grlbtn">Anterior</button>
+        <span id="page-info" ></span>
+        <button id="next" class="grlbtn">Siguiente</button>
+      </div>
+      <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
