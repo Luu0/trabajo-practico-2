@@ -1,8 +1,6 @@
 import {setupRandomButton} from './utils/randombtn.js'
 
-
 setupRandomButton('randomLink');
-
 
 const favoritosEl = document.getElementById('favoritos');
 

@@ -47,7 +47,6 @@ document.getElementById('agregarFavorito').addEventListener('click', () => {
             confirmButtonColor: '#801616'
         });
 
-
     } else {
         Swal.fire({
             icon: 'warning',
