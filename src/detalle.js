@@ -1,13 +1,11 @@
 import {setupRandomButton} from './utils/randombtn'
 
-
 setupRandomButton('randomLink');
 
 const pais = JSON.parse(localStorage.getItem('paisSeleccionado'));
 
 if (pais) {
     const contenedor = document.getElementById('detallesPais');
-
 
     contenedor.innerHTML = `
         <div class="detalle-container">

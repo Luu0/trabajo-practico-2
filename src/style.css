@@ -83,9 +83,6 @@ h3{
     transition: transform 0.3s, background-color 0.3s; 
 }
 
-
-
-
 .country:hover {
     transform: scale(1.05); 
     background-color: rgb(179, 28, 28); 
