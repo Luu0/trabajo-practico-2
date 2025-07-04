@@ -72,15 +72,18 @@ h3{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
+    
 }
 
 .country {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(23, 23, 25);
     border-radius: 10px;
     padding: 6px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.227);
-    transition: transform 0.3s, background-color 0.3s; 
+    transition: transform 0.3s, background-color 0.3s;
 }
 
 .country:hover {
@@ -93,6 +96,7 @@ h3{
     height: 100px;
     object-fit: contain;
     border-radius: 5px;  
+    flex-shrink: 0; 
 }
 
 .pagination {
@@ -111,6 +115,7 @@ h3{
     color: white;
     border: none;
     border-radius: 5px;
+    margin-top: auto; 
 }
 
 .grlbtn:hover{
@@ -152,6 +157,11 @@ h3{
 
 #filtroRegion:hover {
     background-color: #a62222;
+}
+
+#eliminarTodos{
+    display: block;
+    margin: 0 auto 20px auto; 
 }
 
 @media (max-width: 600px) {

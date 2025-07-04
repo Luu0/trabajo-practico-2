@@ -51,7 +51,7 @@ document.getElementById('agregarFavorito').addEventListener('click', () => {
         Swal.fire({
             icon: 'warning',
             title: '¡Agregado!',
-            text: 'El ya esta en tus favoritos!',
+            text: 'El pais ya esta en tus favoritos!',
             confirmButtonColor: '#801616'
         });
     }

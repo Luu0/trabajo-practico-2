@@ -1,4 +1,4 @@
-//Funcion para buscar un pais random
+//Funcion para buscar un pais random usando detalles
 export function setupRandomButton(buttonId) {
     const randomLink = document.getElementById(buttonId);
 
